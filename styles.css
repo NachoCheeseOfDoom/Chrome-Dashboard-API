@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-shadow: 0px 0px 20px #aaaaaa;
+}
+
+main {
+  padding: 15px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ================== CRYPTO ================= */
+.crypto-container {
+  font-size: 1.1rem;
+}
+
+.crypto-name {
+  display: flex;
+  gap: 10px;
+}
+
+.date {
+  text-align: center;
+}
+
+.up{
+    color: green;
+}
+
+.down{
+    color: rgb(224, 26, 26);
+}
