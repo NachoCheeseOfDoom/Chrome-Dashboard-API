@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Personal Dashboard",
+  "version": "1.0.0",
+  "description": "Have a look at my personal dashboard",
+  "action": {
+    "default_icon": "dashboard.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}

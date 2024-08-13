@@ -36,16 +36,78 @@ main {
 .crypto-name {
   display: flex;
   gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
 }
+
+.crypto-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.crypto-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+i {
+  text-shadow: 1px 1px 10px #7c7c7c;
+}
+
+.golden {
+  color: goldenrod;
+}
+
+.up {
+  color: rgb(14, 168, 14);
+}
+
+.down {
+  color: rgb(237, 47, 47);
+}
+
+/* ================== DATE AND TIME ================= */
 
 .date {
   text-align: center;
 }
 
-.up{
-    color: green;
+/* ================== WEATHER ================= */
+
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
 
-.down{
-    color: rgb(224, 26, 26);
+.weather-icon-group {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.weather-icon {
+  width: 120px;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.082) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.weather-temperature {
+  color: #525252;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.weather-location {
+  text-align: end;
+  /* background-color: transparent; */
 }
