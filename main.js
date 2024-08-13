@@ -15,7 +15,7 @@ const coinURL = 'https://api.coingecko.com/api/v3/coins/'
 fetch(imgURL)
     .then(response => response.json())
     .then(data => {
-        const imgUrl = data.urls.regular
+        const imgUrl = data.urls.full
         const author = data.user.name
         document.body.style.backgroundImage = `url("${imgUrl}")`
         authorEl.innerHTML = `By: ${author}`
