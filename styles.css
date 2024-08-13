@@ -28,6 +28,10 @@ main {
   justify-content: space-between;
 }
 
+p#author {
+  font-size: 1rem;
+}
+
 /* ================== CRYPTO ================= */
 .crypto-container {
   font-size: 1.1rem;
@@ -71,6 +75,7 @@ i {
 
 .date {
   text-align: center;
+  font-size: 5rem;
 }
 
 /* ================== WEATHER ================= */
@@ -109,5 +114,5 @@ i {
 
 .weather-location {
   text-align: end;
-  /* background-color: transparent; */
+  font-size: 1.2rem;
 }
